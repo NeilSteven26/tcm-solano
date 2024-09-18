@@ -10,7 +10,7 @@ const SuzukiMotors = () => {
                 transition={{ duration: 0.5 }}
                 className="my-20 text-center text-4xl font-black text-neutral-800 ">SUZUKI
             </motion.h1>
-            <div className="grid grid-cols-5 items-center justify-center">
+            <div className="grid grid-cols-2 lg:grid-cols-5 md:grid-cols-3 justify-center gap-3">
                 {SUZUKIMC.map((SuzukiMotors, index) => (
                     <div key={index} className="w-64 mb-8">
                         <motion.div
@@ -26,7 +26,7 @@ const SuzukiMotors = () => {
                                 />
                             </div>
 
-                            <h6 className="mb-2 text-lg font-bold text-neutral-800">{SuzukiMotors.mcName}</h6>
+                            <span className="mb-2 text-lg font-bold text-neutral-800 block whitespace-break-spaces w-52">{SuzukiMotors.mcName}</span>
                             <div className="flex flex-col text-neutral-800">
                                 <span>CASH - {SuzukiMotors.cash}</span>
                                 <span>DOWNPAYMENT - {SuzukiMotors.Downpayment}</span>

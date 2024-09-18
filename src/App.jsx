@@ -3,12 +3,13 @@ import Contact from "./components/Contact";
 import CoreValues from "./components/CoreValues";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
-import Technologies from "./components/Technologies";
+import MCBrand from "./components/MCBrand";
 import Visionmission from "./components/Visionmission";
 import HondaMotors from "./components/MotorsHonda";
 import YamahaMotors from "./components/MotorsYamaha";
 import SuzukiMotors from "./components/MotorsSuzuki";
 import KawasakiMotors from "./components/MotorsKawasaki";
+import Carousel from "./components/Carousel";
 
 
 const App = () => {
@@ -23,7 +24,8 @@ const App = () => {
         <About />
         <Visionmission />
         <CoreValues />
-        <Technologies />
+        <Carousel/>
+        <MCBrand />
         <HondaMotors />
         <YamahaMotors />
         <SuzukiMotors/>

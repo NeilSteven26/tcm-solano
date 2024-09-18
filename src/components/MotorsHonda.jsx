@@ -10,7 +10,7 @@ const HondaMotors = () => {
                 transition={{ duration: 0.5 }}
                 className="my-20 text-center text-4xl font-black text-neutral-800 ">HONDA
             </motion.h1>
-            <div className="grid grid-cols-5 justify-center">
+            <div className="grid grid-cols-2 lg:grid-cols-5 md:grid-cols-3 justify-center gap-3">
                 {HONDAMC.map((HondaMotors, index) => (
                     <div key={index} className="w-64 mb-8 items-center">
                         <motion.div
@@ -28,7 +28,7 @@ const HondaMotors = () => {
                                 />
                             </div>
 
-                            <h6 className="mb-2 text-lg font-bold text-neutral-800">{HondaMotors.mcName}</h6>
+                            <span className="mb-2 text-lg font-bold text-neutral-800 block whitespace-break-spaces w-52">{HondaMotors.mcName}</span>
                             <div className="flex flex-col text-neutral-800">
                                 <span>CASH - {HondaMotors.cash}</span>
                                 <span>DOWNPAYMENT - {HondaMotors.Downpayment}</span>

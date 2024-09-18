@@ -1,5 +1,10 @@
 import aboutImg from "../assets/TCM.jpg"
 import { ABOUT_TEXT } from "../constants"
+import { ABOUT_TEXT1 } from "../constants"
+import { ABOUT_TEXT2 } from "../constants"
+import { ABOUT_TEXT3 } from "../constants"
+import { ABOUT_TEXT4 } from "../constants"
+import { ABOUT_TEXT5 } from "../constants"
 import { motion } from "framer-motion"
 const About = () => {
     return (
@@ -23,8 +28,13 @@ const About = () => {
                     initial={{ opacity: 0, x: 100 }}
                     transition={{ duration: 0.5 }}
                     className="w-full lg:w-1/2">
-                    <div className="flex justify-center lg:justify-start">
-                        <p className="my-2 maxw-xl py-6 text-lg  text-neutral-800 ">{ABOUT_TEXT}</p>
+                    <div className="flex flex-col indent-10 gap-2 my-2 maxw-xl text-lg  text-neutral-800 text-justify">
+                        <span>{ABOUT_TEXT}</span>
+                        <span>{ABOUT_TEXT1}</span>
+                        <span>{ABOUT_TEXT2}</span>
+                        <span>{ABOUT_TEXT3}</span>
+                        <span>{ABOUT_TEXT4}</span>
+                        <span>{ABOUT_TEXT5}</span>
                     </div>
                 </motion.div>
             </div>
