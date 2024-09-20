@@ -12,21 +12,21 @@ const Spareparts = () => {
             </motion.h1>
             <div className="grid grid-cols-2 lg:grid-cols-5 md:grid-cols-3 justify-center gap-3">
                 {mcParts.map((Spareparts, index) => (
-                    <div key={index} className="w-64 mb-8 flex items-center justify-center">
+                    <div key={index} className="w-40 lg:w-64 mb-8">
                         <motion.div
                             whileInView={{ opacity: 1, x: 0 }}
                             initial={{ opacity: 0, x: -100 }}
                             transition={{ delay: index * 0.2, duration: 0.3 }}
                             className="">
-                            <div className="w-48 h-48">
+                            <div className="w-40 h-40">
                                 <img
                                     src={Spareparts.partsImage}
                                     alt={Spareparts.partsName}
-                                    className="mb-6 rounded object-scale-down w-48 h-48"
+                                    className="rounded object-scale-down w-48 h-48"
                                 />
                             </div>
-                            <div className="flex flex-col text-neutral-800 items-center justify-center">
-                                <span className="mb-2 text-lg font-bold text-neutral-800 text-center">{Spareparts.partsName}</span>
+                            <div className="flex flex-col text-neutral-800 items-center justify-center w-40">
+                                <span className="mb-2 text-md lg:text-lg font-bold text-neutral-800 text-center">{Spareparts.partsName}</span>
                                 <span>{Spareparts.description}</span>
                                 <span className="">{Spareparts.price}</span>
                             </div>

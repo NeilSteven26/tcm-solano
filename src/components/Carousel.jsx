@@ -47,7 +47,7 @@ const Carousel = () => {
             >
                 &lt;
             </button> */}
-            <FaArrowCircleLeft onClick={prevSlide} className="absolute top-1/2 left-2 transform -translate-y-1/2 bg-gray-800 rounded-full text-white p-2 text-5xl" />
+            <FaArrowCircleLeft onClick={prevSlide} className="absolute top-1/2 left-2 transform -translate-y-1/2 bg-gray-800 rounded-full text-white  p-1 lg:p-2 text-3xl lg:text-5xl" />
 
             {/* Right Arrow */}
             {/* <button
@@ -56,7 +56,7 @@ const Carousel = () => {
             >
                 &gt;
             </button> */}
-            <FaArrowCircleRight onClick={nextSlide} className="absolute top-1/2 right-2 transform -translate-y-1/2 bg-gray-800 rounded-full text-white p-2 text-5xl" />
+            <FaArrowCircleRight onClick={nextSlide} className="absolute top-1/2 right-2 transform -translate-y-1/2 bg-gray-800 rounded-full text-white p-1 lg:p-2 text-3xl lg:text-5xl" />
 
             {/* Indicators */}
             <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">

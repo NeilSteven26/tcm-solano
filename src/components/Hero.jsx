@@ -20,13 +20,13 @@ const Hero = ({ className }) => {
                             variants={container(0)}
                             initial="hidden"
                             animate="visible"
-                            className="pb-16 text-6xl text-neutral-800 font-bold tracking-tight lg:mt-16 lg:text-8xl">Transcycle Solano Branch
+                            className="pb-10 text-neutral-800 font-bold tracking-tight lg:mt-16 text-4xl lg:text-8xl">Transcycle Solano Branch
                         </motion.h1>
                         <motion.p
                             variants={container(1)}
                             initial="hidden"
                             animate="visible"
-                            className="my-2 max-w-xl text-lg py-6 font-semibold tracking-tighter  text-neutral-800 text-justify">
+                            className="my-2 max-w-xl text-md lg:text-lg py-3 font-semibold tracking-tighter text-neutral-800 text-justify">
                             {HERO_CONTENT}
                         </motion.p>
                     </div>

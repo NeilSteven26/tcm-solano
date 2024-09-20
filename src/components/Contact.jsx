@@ -11,7 +11,7 @@ const Contact = () => {
                 initial={{ opacity: 0, y: -100 }}
                 transition={{ duration: 0.5 }}
                 className="my-10 text-center font-bold text-neutral-900 text-4xl">Get in Touch</motion.h1>
-            <div className="text-center tracking-tighter font-bold my-4 text-neutral-800">
+            <div className="text-center tracking-tighter font-bold my-4 text-neutral-800 text-lg">
                 <motion.p
                     whileInView={{ opacity: 1, x: 0 }}
                     initial={{ opacity: 0, x: -100 }}

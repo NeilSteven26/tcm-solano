@@ -12,24 +12,24 @@ const HondaMotors = () => {
             </motion.h1>
             <div className="grid grid-cols-2 lg:grid-cols-5 md:grid-cols-3 justify-center gap-3">
                 {HONDAMC.map((HondaMotors, index) => (
-                    <div key={index} className="w-64 mb-8 items-center">
+                    <div key={index} className="w-40 lg:w-60 mb-3 lg:mb-8">
                         <motion.div
                             whileInView={{ opacity: 1, x: 0 }}
                             initial={{ opacity: 0, x: -100 }}
                             transition={{ delay: index * 0.2, duration: 1 }}
                             className="">
-                            <div className="w-40 h-40 flex items-center justify-center">
+                            <div className="w-40 h-40">
                                 <img
                                     src={HondaMotors.mcImage}
                                     width={180}
                                     height={180}
                                     alt={HondaMotors.mcName}
-                                    className="mb-6 rounded"
+                                    className="mb-6 rounded object-scale-down w-40 h-40"
                                 />
                             </div>
 
-                            <span className="mb-2 text-lg font-bold text-neutral-800 block whitespace-break-spaces w-52">{HondaMotors.mcName}</span>
-                            <div className="flex flex-col text-neutral-800">
+                            <span className="mb-2 text-[.8rem] lg:text-lg font-bold text-neutral-800 block whitespace-break-spaces w-40">{HondaMotors.mcName}</span>
+                            <div className="flex flex-col text-neutral-800 text-[.55rem] md:text-[.8rem] lg:text-[1rem]">
                                 <span>CASH - {HondaMotors.cash}</span>
                                 <span>DOWNPAYMENT - {HondaMotors.Downpayment}</span>
                                 <span>M.A for 3 Years - {HondaMotors.threeYears}</span>

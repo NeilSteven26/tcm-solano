@@ -8,11 +8,11 @@ const YamahaMotors = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 initial={{ opacity: 0, y: -100 }}
                 transition={{ duration: 0.5 }}
-                className="my-20 text-center text-4xl font-black text-neutral-800 ">YAMAHA
+                className="my-20 text-center text-4xl font-black text-neutral-800">YAMAHA
             </motion.h1>
             <div className="grid grid-cols-2 lg:grid-cols-5 md:grid-cols-3 justify-center gap-3">
                 {YAMAHAMC.map((YamahaMotors, index) => (
-                    <div key={index} className="w-64 mb-8">
+                    <div key={index} className="w-40 lg:w-60  mb-3 lg:mb-8">
                         <motion.div
                             whileInView={{ opacity: 1, x: 0 }}
                             initial={{ opacity: 0, x: -100 }}
@@ -26,8 +26,8 @@ const YamahaMotors = () => {
                                 />
                             </div>
 
-                            <span className="mb-2 text-lg font-bold text-neutral-800 block whitespace-break-spaces w-52">{YamahaMotors.mcName}</span>
-                            <div className="flex flex-col text-neutral-800">
+                            <span className="mb-2 text-md lg:text-lg font-bold text-neutral-800 block whitespace-break-spaces w-40">{YamahaMotors.mcName}</span>
+                            <div className="flex flex-col text-neutral-800 text-[.5rem] md:text-[.8rem] lg:text-[1rem]">
                                 <span>CASH - {YamahaMotors.cash}</span>
                                 <span>DOWNPAYMENT - {YamahaMotors.Downpayment}</span>
                                 <span>M.A for 3 Years - {YamahaMotors.threeYears}</span>

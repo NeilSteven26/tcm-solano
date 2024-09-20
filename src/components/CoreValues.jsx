@@ -14,7 +14,7 @@ const CoreValues = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 initial={{ opacity: 0, y: -100 }}
                 transition={{ duration: 0.5 }}>
-                <img className="w-auto" src={corevalues} alt="" />
+                <img className="w-auto mb-5" src={corevalues} alt="" />
             </motion.h1>
 
 

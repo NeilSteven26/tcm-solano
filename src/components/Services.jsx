@@ -15,15 +15,15 @@ const Services = () => {
                 <motion.div whileInView={{ opacity: 1, x: 0 }}
                     initial={{ opacity: 0, x: 300 }}
                     transition={{ duration: 0.5 }}
-                    className="absolute bottom-5 right-5 flex items-center">
-                    <img src={tristanmechanic} alt="" className="w-[18rem] h-[10rem]" />
+                    className="absolute bottom-1 right-3 flex items-center">
+                    <img src={tristanmechanic} alt="" className="w-[5rem] lg:w-[18rem]" />
                     <span
-                        className="mb-2 text-xl text-white font-bold text-center">
+                        className="flex flex-col lg:gap-3 mb-0 md:mb-1 lg:mb-2 text-[.5rem] lg:text-[3rem] text-white font-bold text-center">
                         ERICK JOHN BANIAGA
-                        <div className="text-sm">
+                        <div>
                             BRANCH MECHANIC
                         </div>
-                        <div className="text-sm">
+                        <div>
                             CONTACT NUMBER: 09269212405
                         </div>
                     </span>
@@ -33,7 +33,7 @@ const Services = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 initial={{ opacity: 0, y: -100 }}
                 transition={{ duration: 0.5 }}
-                className="my-20 text-4xl text-neutral-800 indent-10 text-justify">At TRANSCYCLE Solano, we offer a comprehensive range of services to ensure your vehicle is in peak condition. Our Branch Mechanic  specializes in tune-ups, carburetor and fuel injection systems, as well as top, major, and side overhauling. We also provide services for oil seals, brake systems, steering systems, and cables. Whether it’s the drive chain, V-belt, front and rear wheels, or electrical wiring, we’ve got you covered. Additionally, we offer a variety of other services to meet your specific needs, ensuring optimal performance and safety for your vehicle.
+                className="my-10 text-md lg:text-2xl text-neutral-800 indent-10 text-justify ">At TRANSCYCLE Solano, we offer a comprehensive range of services to ensure your vehicle is in peak condition. Our Branch Mechanic  specializes in tune-ups, carburetor and fuel injection systems, as well as top, major, and side overhauling. We also provide services for oil seals, brake systems, steering systems, and cables. Whether it’s the drive chain, V-belt, front and rear wheels, or electrical wiring, we’ve got you covered. Additionally, we offer a variety of other services to meet your specific needs, ensuring optimal performance and safety for your vehicle.
             </motion.h1>
 
 

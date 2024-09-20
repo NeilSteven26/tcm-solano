@@ -28,7 +28,7 @@ const About = () => {
                     initial={{ opacity: 0, x: 100 }}
                     transition={{ duration: 0.5 }}
                     className="w-full lg:w-1/2">
-                    <div className="flex flex-col indent-10 gap-2 my-2 maxw-xl text-lg  text-neutral-800 text-justify">
+                    <div className="flex flex-col indent-10 gap-2 my-2 maxw-xl  text-md lg:text-lg  text-neutral-800 text-justify">
                         <span>{ABOUT_TEXT}</span>
                         <span>{ABOUT_TEXT1}</span>
                         <span>{ABOUT_TEXT2}</span>
