@@ -44,7 +44,10 @@ export const MISSION_TEXT = [
 
 export const CONTACT = {
   address: "Olma Realty Building, National Highway Brgy. Roxas, Solano, Nueva Vizcaya",
-  phoneNo: "+639061971811",
-  phoneNo2: "+639059177607",
+  phoneNo: "(+63) 905-917-7607",
+  phoneNo2: "(+63) 906-197-1811",
+  phoneNo3: "(+63) 965-602-0961",
+  phoneNo4: "(+63) 967-847-2536",
+  phoneNo5: "(+63) 969-185-5056",
   email: "customersupport@transcycle.com.ph",
 };

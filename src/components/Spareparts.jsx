@@ -10,7 +10,7 @@ const Spareparts = () => {
                 transition={{ duration: 0.5 }}
                 className="my-20 text-center text-4xl font-black text-neutral-800">PARTS & ACCESSORIES
             </motion.h1>
-            <div className="grid grid-cols-2 lg:grid-cols-5 md:grid-cols-3 justify-center gap-3">
+            <div className="grid grid-cols-2 lg:grid-cols-5 md:grid-cols-3 justify-center gap-6">
                 {mcParts.map((Spareparts, index) => (
                     <div key={index} className="w-40 lg:w-64 mb-8">
                         <motion.div

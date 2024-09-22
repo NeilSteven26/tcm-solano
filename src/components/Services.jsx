@@ -8,27 +8,23 @@ const Services = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 initial={{ opacity: 0, y: -100 }}
                 transition={{ duration: 0.5 }}
-                className="my-20 text-center text-4xl font-black text-neutral-800">SERVICES
+                className="my-5 md:my-10 lg:my-20 text-center text-4xl font-black text-neutral-800">SERVICES
             </motion.h1>
-            <div className="relative">
-                <img className="w-full relative" src={servicebanner} alt="" />
-                <motion.div whileInView={{ opacity: 1, x: 0 }}
-                    initial={{ opacity: 0, x: 300 }}
-                    transition={{ duration: 0.5 }}
-                    className="absolute bottom-1 right-3 flex items-center">
-                    <img src={tristanmechanic} alt="" className="w-[5rem] lg:w-[18rem]" />
-                    <span
-                        className="flex flex-col lg:gap-3 mb-0 md:mb-1 lg:mb-2 text-[.5rem] lg:text-[3rem] text-white font-bold text-center">
-                        ERICK JOHN BANIAGA
-                        <div>
-                            BRANCH MECHANIC
-                        </div>
-                        <div>
-                            CONTACT NUMBER: 09269212405
-                        </div>
-                    </span>
-                </motion.div>
-            </div>
+            <motion.div className="relative"
+                whileInView={{ opacity: 1, x: 0 }}
+                initial={{ opacity: 0, x: 300 }}
+                transition={{ duration: 0.5 }}>
+                <img className="w-full" src={servicebanner} alt="" />
+                <div
+                    className="absolute bottom-2 right-3 flex items-center">
+                    <img src={tristanmechanic} alt="" className="w-[5rem] md:w-[9rem] lg:w-[18rem]" />
+                    <div className="flex flex-col lg:gap-3 mb-0 md:mb-1 lg:mb-2 text-[.5rem] md:text-[1rem] lg:text-[3rem] text-white font-bold  leading-none items-start">
+                        <span >ERICK JOHN BANIAGA</span>
+                        <span>BRANCH MECHANIC</span>
+                        <span>CONTACT NUMBER: 09269212405</span>
+                    </div>
+                </div>
+            </motion.div>
             <motion.h1
                 whileInView={{ opacity: 1, y: 0 }}
                 initial={{ opacity: 0, y: -100 }}

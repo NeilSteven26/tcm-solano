@@ -84,7 +84,7 @@ export const YAMAHAMC = [
     rebates:"₱ 200"
   },
   {
-    mcName: "Aerox S",
+    mcName: "Aerox S 155",
     mcImage: aeroxS,
     cash: "₱ 148,800",
     Downpayment: "₱ 24,700",
