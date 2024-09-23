@@ -8,7 +8,7 @@ const HondaMotors = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 initial={{ opacity: 0, y: -100 }}
                 transition={{ duration: 0.5 }}
-                className="my-20 text-center text-4xl font-black text-neutral-800 ">HONDA
+                className="my-10 lg:my-20 text-center text-2xl lg:text-4xl text-neutral-800 font-black">HONDA
             </motion.h1>
             <div className="grid grid-cols-2 lg:grid-cols-5 md:grid-cols-3 justify-center gap-6">
                 {HONDAMC.map((HondaMotors, index) => (
