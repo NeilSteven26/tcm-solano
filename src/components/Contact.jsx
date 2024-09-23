@@ -79,9 +79,10 @@ const Contact = () => {
                     <a href="https://www.youtube.com/@Transcycle_PH" target="_blank" ><FaYoutube className="text-red-600" /></a>
                 </motion.div>
             </div>
-            <div className="flex items-center justify-center gap-2">
+            <div className="flex items-center justify-center gap-2 text-neutral-800  text-[.7rem] lg:text-md font-bold ">
+                <span className="">Designed and Developed by</span>
                 <img src={nsac} alt="" className="w-20"/>
-                <span className="text-neutral-800 text-md font-bold">All Rights Reserved ©</span>
+                <span className="">Copyright © 2024</span>
             </div>
         </div>
     );
