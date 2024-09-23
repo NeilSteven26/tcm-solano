@@ -25,7 +25,7 @@ const Spareparts = () => {
                                     className="rounded object-scale-down w-48 h-48"
                                 />
                             </div>
-                            <div className="flex flex-col text-neutral-800 items-center justify-center w-40">
+                            <div className="mt-8 flex flex-col text-neutral-800 items-center justify-center w-40">
                                 <span className="mb-2 text-md lg:text-lg font-bold text-neutral-800 text-center">{Spareparts.partsName}</span>
                                 <span>{Spareparts.description}</span>
                                 <span className="">{Spareparts.price}</span>

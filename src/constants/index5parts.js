@@ -3,11 +3,12 @@ import vbeltclick125 from "./../../public/SparePartsImages/vbeltclick125.png";
 import vbeltmioi from "./../../public/SparePartsImages/vbeltmioi.png";
 import aircleanermioi from "./../../public/SparePartsImages/aircleanermioi.png";
 import aircleanerclick125 from "./../../public/SparePartsImages/aircleanerclick125.png";
-import hondascootoil from "./../../public/SparePartsImages/hondascootoil.png";
+import hondascooter from "./../../public/SparePartsImages/hondascooter.png";
 import hondaIDEpoint8 from "./../../public/SparePartsImages/hondaIDEpoint8.png";
 import hondaIDE1 from "./../../public/SparePartsImages/hondaIDE1.png";
-import honda1mono from "./../../public/SparePartsImages/honda1mono.png";
+import honda4t from "./../../public/SparePartsImages/honda4t.png";
 import bluecorepoint8 from "./../../public/SparePartsImages/bluecorepoint8.png";
+import bluecore1L from "./../../public/SparePartsImages/bluecore1L.png";
 import yamahaperformance from "./../../public/SparePartsImages/yamahaperformance.png";
 import supergold from "./../../public/SparePartsImages/supergold.png";
 import superevmono from "./../../public/SparePartsImages/superevmono.png";
@@ -36,39 +37,39 @@ export const mcParts = [
     partsName: "BELT, DRIVE",
     description: "Click 125",
     partsImage: vbeltclick125,
-    price: "₱ 700.00",
+    price: "₱ 885.00",
   },
   {
     partsName: "ELEMENT ASSY AIR CLEANER",
     description: "Mio i125",
     partsImage: aircleanermioi,
-    price: "₱ 250.00",
+    price: "₱ 255.00",
   },
   {
     partsName: "ELEMENT ASSY AIR CLEANER",
     description: "Click 125i",
     partsImage: aircleanerclick125,
-    price: "₱ 260.00",
+    price: "₱ 330.00",
   },
   {
-    partsName: "SL 10W30 MB IDE 0.8L",
-    partsImage: hondascootoil,
-    price: "₱ 247.00",
+    partsName: "Pro Honda Scooter Mineral 10W-30 SL MB",
+    partsImage: hondascooter,
+    price: "₱ 275.00",
   },
   {
-    partsName: "SL 10W30 MA IDE 0.8L",
+    partsName: "Pro Honda Motorcycle Mineral 10W-30 SL MA 0.8L",
     partsImage: hondaIDEpoint8,
-    price: "₱ 194.00",
+    price: "₱ 230.00",
   },
   {
-    partsName: "SL 10W30 MA IDE 1L",
+    partsName: "Pro Honda Motorcycle Mineral 10W-30 SL MA 1L",
     partsImage: hondaIDE1,
-    price: "₱ 226.00",
+    price: "₱ 270.00",
   },
   {
-    partsName: "HONDA ENGINE OIL, 4T MONO",
-    partsImage: honda1mono,
-    price: "₱ 205.00",
+    partsName: "Honda Genuine Oil 4T SJ 40 MA",
+    partsImage: honda4t,
+    price: "₱ 215.00",
   },
   {
     partsName: "YAMALUBE AUTOMATIC SL 0.8L",
@@ -76,31 +77,36 @@ export const mcParts = [
     price: "₱ 260.00",
   },
   {
+    partsName: "YAMALUBE AT Blue Core 1L",
+    partsImage: bluecore1L,
+    price: "₱ 345.00",
+  },
+  {
     partsName: "YAMALUBE PERFORMANCE SL 1L",
     partsImage: yamahaperformance,
-    price: "₱ 205.00",
+    price: "₱ 285.00",
   },
 
   {
     partsName: "SUPEREV GOLD (MULTIGRADE)",
     partsImage: supergold,
-    price: "₱ 203.00",
+    price: "₱ 250.00",
   },
 
   {
     partsName: "REV OIL 4T(MONOGRADE) ",
     partsImage: superevmono,
-    price: "₱ 180.00",
+    price: "₱ 210.00",
   },
   {
     partsName: "YAMAHA GEAR OIL 100ml",
     partsImage: yamahagearoil,
-    price: "₱ 50.00",
+    price: "₱ 60.00",
   },
   {
-    partsName: "HONDA GEAR OIL 120ml IDE",
+    partsName: "Pro Honda Scooter Gear Oil",
     partsImage: hondagearoil,
-    price: "₱ 57.00",
+    price: "₱ 65.00",
   },
   {
     partsName: "ELEMENT ASSY , OIL CLEANER",
