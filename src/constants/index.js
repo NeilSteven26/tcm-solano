@@ -44,6 +44,7 @@ export const MISSION_TEXT = [
 
 export const CONTACT = {
   address: "Olma Realty Building, National Highway Brgy. Roxas, Solano, Nueva Vizcaya",
+  location: "https://maps.app.goo.gl/JmU1cUxNzXj5PF7h7",
   phoneNo: "(+63) 905-917-7607",
   phoneNo2: "(+63) 906-197-1811",
   phoneNo3: "(+63) 965-602-0961",
