@@ -8,7 +8,7 @@ const Sales = () => {
                 initial={{ opacity: 0, y: -100 }}
                 transition={{ duration: 0.5 }}
                 className="my-5 md:my-10 lg:my-20 text-center text-2xl lg:text-4xl text-neutral-800 font-black">SALES
-                
+
             </motion.h1>
             <motion.div className="relative"
                 whileInView={{ opacity: 1, x: 0 }}
@@ -28,70 +28,14 @@ const Sales = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 initial={{ opacity: 0, y: -100 }}
                 transition={{ duration: 0.5 }}
-                className="my-10 text-md lg:text-2xl text-neutral-800 indent-10 text-justify ">At TRANSCYCLE Solano, we offer a wide selection of both brand-new and repossessed motorcycles at highly affordable prices. Whether you're looking for the latest models or reliable pre-owned options, our team is committed to helping you find the perfect motorcycle that fits your budget and needs. With flexible financing options and quality customer service, TRANSCYCLE Solano ensures that owning your dream motorcycle is within reach for everyone.
+                className="flex flex-col gap-5 my-10 font-bold text-md lg:text-2xl text-neutral-800 indent-10 text-justify ">
+                <span>
+                    At TRANSCYCLE Solano, we offer a wide range of brand-new and repossessed motorcycles at affordable prices, giving you flexible options to suit your budget. Whether you prefer to pay in cash or choose an installment plan, we have financing options available to make owning your dream motorcycle easier and more convenient. Our commitment is to provide quality motorcycles along with exceptional customer service, ensuring a smooth and hassle-free buying experience.
+                </span>
+                <span>
+                At TRANSCYCLE Solano, owning a brand-new or repossessed motorcycle is made simple and affordable through our flexible installment plans. With just one valid ID and proof of income, you can start the journey towards owning your dream motorcycle. Our easy process includes three simple steps: **INQUIRE**, **APPLY**, and **RELEASE**. First, inquire about the available models and financing options. Then, submit your application with minimal requirements. Once approved, your motorcycle will be ready for release, bringing you one step closer to the road. At TRANSCYCLE Solano, we make motorcycle ownership fast, easy, and accessible for everyone.
+                </span>
             </motion.h1>
-
-
-            {/* <div className="">
-                <div className="mb-8 flex flex-wrap lg:justify-center">
-                    <motion.div
-                        whileInView={{ opacity: 1, x: 0 }}
-                        initial={{ opacity: 0, x: - 100 }}
-                        transition={{ duration: 1 }}
-                        className="w-full lg:w-1/4">
-                        <img src={tristanmechanic} alt="" className="w-[20rem] h-[10rem]" />
-                    </motion.div>
-
-                    <motion.div
-                        whileInView={{ opacity: 1, x: 0 }}
-                        initial={{ opacity: 0, x: 100 }}
-                        transition={{ duration: 1 }}
-                        className="w-full max-w-xl lg:w-3/4">
-                        <span className="mb-2 font-bold flex flex-col text-neutral-900">
-                            ERICK JOHN BANIAGA
-                            <span className="text-sm">
-                                BRANCH MECHANIC
-                            </span>
-                            <span className="text-sm">
-                                CONTACT NUMBER: 09269212405
-                            </span>
-                        </span>
-                    </motion.div>
-                </div>
-            </div> */}
-
-
-
-            {/* <div className="">
-                {EXPERIENCES.map((Experience, index) => (
-                    <div className="mb-8 flex flex-wrap lg:justify-center" key={index}>
-                        <motion.div
-                            whileInView={{ opacity: 1, x: 0 }}
-                            initial={{ opacity: 0, x: - 100 }}
-                            transition={{ duration: 1 }}
-                            className="w-full lg:w-1/4">
-                            <p className="mb-2 text-sm text-neutral-400">{Experience.year}</p>
-                        </motion.div>
-                        <motion.div
-                            whileInView={{ opacity: 1, x: 0 }}
-                            initial={{ opacity: 0, x: 100 }}
-                            transition={{ duration: 1 }}
-                            className="w-full max-w-xl lg:w-3/4">
-                            <h6 className="mb-2 font-semibold">
-                                {Experience.role} - {" "}
-                                <span className="text-sm text-purple-100 ">
-                                    {Experience.company}
-                                </span>
-                            </h6>
-                            <p className="mb-4 text-neutral-400"> {Experience.description}</p>
-                            {Experience.technologies.map((tech, index) => (
-                                <span className="mr-2 mt-4 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-800" key={index}>{tech}</span>
-                            ))}
-                        </motion.div>
-                    </div>
-                ))}
-            </div> */}
-
         </div>
     );
 };
