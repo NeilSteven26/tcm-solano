@@ -12,6 +12,7 @@ import KawasakiMotors from "./components/MotorsKawasaki";
 import Carousel from "./components/Carousel";
 import Spareparts from "./components/Spareparts";
 import Services from "./components/Services";
+import Sales from "./components/Sales";
 
 
 const App = () => {
@@ -33,6 +34,7 @@ const App = () => {
           <YamahaMotors />
           <SuzukiMotors />
           <KawasakiMotors />
+          <Sales />
           <Spareparts/>
           <Services/>
           <Contact />
