@@ -1,6 +1,4 @@
-import servicebanner from "../assets/servicebanner.png";
 import tristantcm from "../assets/tristantcm.jpg";
-import tristan1 from "../assets/tristan1.png";
 import { motion } from "framer-motion";
 const Sales = () => {
     return (
@@ -19,8 +17,7 @@ const Sales = () => {
                 <img className="w-full" src={tristantcm} alt="" />
                 <div
                     className="absolute bottom-2 right-3 flex items-center">
-                    {/* <img src={tristan1} alt="" className="w-[5rem] md:w-[9rem] lg:w-[18rem]" /> */}
-                    <div className="flex flex-col items-center lg:gap-3 mb-0 md:mb-1 lg:mb-2 text-[1rem] md:text-[1rem] lg:text-[3rem] text-neutral-950 font-bold  leading-none">
+                    <div className="flex flex-col items-center lg:gap-3 mb-0 md:mb-1 lg:mb-2 text-[.9rem] md:text-[1rem] lg:text-[3rem] text-neutral-950 font-bold  leading-none">
                         <span >ARJAY P. SERIDON</span>
                         <span>SALES EXECUTIVE</span>
                         <span>09061971811</span>
