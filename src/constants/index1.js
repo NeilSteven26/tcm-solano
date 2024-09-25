@@ -4,6 +4,7 @@ import WXSTD from "./../../public/HondaImages/WXSTD.png"
 import WXABSPM from "./../../public/HondaImages/WXABSPM.png"
 import WXABSRCNG from "./../../public/HondaImages/WXABSRCNG.png"
 import BEATCAST from "./../../public/HondaImages/BEATCAST.png"
+import beatpremium from "./../../public/HondaImages/beatpremium.png"
 import CLICK from "./../../public/HondaImages/CLICK125.png"
 import CLICKLMTD from "./../../public/HondaImages/CLICKLMTD.png"
 import CLICK160 from "./../../public/HondaImages/CLICK160.png"
@@ -67,13 +68,23 @@ export const HONDAMC = [
     rebates: "₱ 200"
   },
   {
-    mcName: "BEAT FI ESP SERIES(CAST)",
+    mcName: "BEAT (Playful)",
     mcImage: BEATCAST,
     cash: "₱ 76,740",
     Downpayment: "₱ 6,400",
     threeYears: "₱ 3,762",
     twoYears: "₱ 4,739",
     oneYear: "₱ 7,670",
+    rebates: "₱ 200"
+  },
+  {
+    mcName: "BEAT (Premium) ",
+    mcImage: beatpremium,
+    cash: "₱ 78,240",
+    Downpayment: "₱ 6,900",
+    threeYears: "₱ 3,816",
+    twoYears: "₱ 4,806",
+    oneYear: "₱ 7,779",
     rebates: "₱ 200"
   },
   {
